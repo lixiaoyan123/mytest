@@ -16,7 +16,7 @@ public class Application {
 		SpringApplication springApplication = new SpringApplication(Application.class);
 		
 		springApplication.setBannerMode(Mode.OFF);
-		
+		System.out.print("wq");
 		springApplication.run(args);
 	}
 }
